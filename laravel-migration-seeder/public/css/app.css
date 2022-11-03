@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr,
+table th,
+table td {
+  border: 1px solid #000;
+  padding: 3px;
+}
+
