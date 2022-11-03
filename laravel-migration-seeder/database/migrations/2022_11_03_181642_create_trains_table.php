@@ -13,6 +13,19 @@ class CreateTrainsTable extends Migration
      */
     public function up()
     {
+
+/*
+Azienda - Agency
+Stazione di partenza - Departure station
+Stazione di arrivo - Arrival station
+Orario di partenza - Departure time
+Orario di arrivo - Arrival time
+Codice Treno - Train Code
+Numero Carrozze - Number of carriages
+In orario - In time
+Cancellato - Deleted
+*/
+
         Schema::create('trains', function (Blueprint $table) {
             $table->id();
             $table->string('agency', 30)->nullable(true);
